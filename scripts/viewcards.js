@@ -12,7 +12,7 @@ for (let i = 0; i < cards.length; i++)
     let titleText = cardView.querySelector(".title-text");
     titleText.textContent = card.title;
 
-    // TODO rest of text spans
+    let
     let deleteBtn = cardView.querySelector(".delete-btn")
     deleteBtn.addEventListener("click", function() {
         console.log(i);
