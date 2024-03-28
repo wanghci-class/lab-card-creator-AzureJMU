@@ -16,6 +16,9 @@ for (let i = 0; i < cards.length; i++)
     let deleteBtn = cardView.querySelector(".delete-btn")
     deleteBtn.addEventListener("click", function() {
         console.log(i);
+        cards.splice(i, 1);
+        localStorage.setItem(JSON.stringify(cards));
+        location.reload();
     })
 
     cardList.appendChild(cardView);
