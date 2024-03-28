@@ -14,7 +14,7 @@ for (let i = 0; i < cards.length; i++)
 
     // TODO rest of text spans
     let deleteBtn = cardView.querySelector(".delete-btn")
-    deleteBtn.addEventListener("click", function {
+    deleteBtn.addEventListener("click", function() {
         console.log(i);
     })
 
